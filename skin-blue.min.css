@@ -1,6 +1,6 @@
 /* pi-hole-midnight */
-/* Custom dark theme CSS for pi-hole to replace skin-blue AdminLTE theme */
-/* https://github.com/jacobbates/pi-hole-midnight/ */
+/* Custom plex theme CSS for pi-hole to replace skin-blue AdminLTE theme */
+/* https://github.com/nicras/pi-hole-plex/ */
 body {
   background: #f00;
 }
@@ -130,8 +130,7 @@ html {
 }
 .content-wrapper,
 .right-side {
-  background-image: center / cover no-repeat url("/style/vendor/plex-bg.png")
-    fixed;
+  background-image: url(style/vendor/plex-bg.png);
   color: #808b90;
 }
 .input-group .input-group-addon,
