@@ -130,7 +130,7 @@ html {
 }
 .content-wrapper,
 .right-side {
-  background-image: url(style/vendor/plex-bg.png);
+  background-image: url(https://github.com/Nicras/pi-hole-plex/blob/master/plex-bg.png);
   color: #808b90;
 }
 .input-group .input-group-addon,
