@@ -130,7 +130,8 @@ html {
 }
 .content-wrapper,
 .right-side {
-  background-image: center / cover no-repeat url("/img/plex-bg.png") fixed;
+  background-image: center / cover no-repeat url("/style/vendor/plex-bg.png")
+    fixed;
   color: #808b90;
 }
 .input-group .input-group-addon,
