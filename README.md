@@ -17,6 +17,7 @@ cd /var/www/html/admin/style/vendor/
 sudo git clone https://github.com/nicras/pi-hole-plex.git
 sudo rm -f skin-blue.min.css
 sudo cp pi-hole-plex/skin-blue.min.css .
+sudo cp pi-hole-plex/plex-bg.png /var/www/html/admin/img
 sudo rm -rf pi-hole-plex
 ```
 
