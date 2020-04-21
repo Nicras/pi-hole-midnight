@@ -17,7 +17,7 @@ cd /var/www/html/admin/style/vendor/
 sudo git clone https://github.com/nicras/pi-hole-plex.git
 sudo rm -f skin-blue.min.css
 sudo cp pi-hole-plex/skin-blue.min.css .
-sudo cp pi-hole-plex/plex-bg.png /var/www/html/admin/img
+sudo cp pi-hole-plex/images/plex-bg.png /var/www/html/admin/img
 sudo rm -rf pi-hole-plex
 ```
 
@@ -37,3 +37,7 @@ sudo git reset --hard
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Credits
+
+All credits for the initial work go to [Jacob bates](https://github.com/jacobbates/pi-hole-midnight).
