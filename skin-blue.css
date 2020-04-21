@@ -364,6 +364,10 @@ html {
 .small-box .icon {
   color: rgba(255, 255, 255, 0.15);
 }
+#querytime {
+  background: #fff;
+  color: #000;
+}
 #all-queries tr td:nth-child(6) {
   color: #808b90 !important;
 }
@@ -415,6 +419,10 @@ input[name="AddMAC"],
 input[name="AddIP"],
 input[name="AddHostname"],
 input[name="adminemail"] {
+  background: #fff;
+  color: #000;
+}
+#querytime {
   background: #fff;
   color: #000;
 }
