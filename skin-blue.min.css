@@ -2,13 +2,13 @@
 /* Custom plex theme CSS for pi-hole to replace skin-blue AdminLTE theme */
 /* https://github.com/nicras/pi-hole-plex/ */
 body {
-  background: #f00;
+  background: none;
 }
 .btn-default,
 button {
   background-color: #080909;
   border: 1px solid #666;
-  color: #b2b2b2;
+  color: #bcbdbe;
 }
 .box-footer,
 .datatables_processing,
@@ -17,7 +17,7 @@ input,
 pre {
   background: #080909;
   border: 1px solid #666;
-  color: #b2b2b2;
+  color: #bcbdbe;
 }
 html {
   scrollbar-3dlight-color: #3c8dbc;
@@ -53,8 +53,8 @@ html {
 .small-box.bg-green,
 .small-box.bg-red,
 .small-box.bg-yellow {
-  background: #0a0d0f !important;
-  border-top: 3px solid #3e4244;
+  background: rgba(10, 10, 10, 0.15) !important;
+  border-top: 3px solid #e5a00d;
 }
 .alert-danger,
 .alert-error,
@@ -120,26 +120,26 @@ html {
 .box,
 .nav-tabs-custom > .tab-content,
 .tab-content {
-  background: #0a0d0f;
-  border-color: #3e4244;
+  background: rgba(10, 10, 10, 0.15);
+  border: none;
 }
 .box-header.with-border {
-  background: #1c2021;
+  background: rgba(10, 10, 10, 0.15);
   border: none;
-  color: #888;
+  color: #eeeeee;
 }
 .content-wrapper,
 .right-side {
-  background-image: url(https://github.com/Nicras/pi-hole-plex/blob/master/plex-bg.png);
-  color: #808b90;
+  background: url(../../img/plex-bg.png) center / cover no-repeat fixed;
+  color: #fff;
 }
 .input-group .input-group-addon,
 .list-group-item,
 .panel,
 .panel-default > .panel-heading {
-  background: #1c2021;
+  background: none;
   border-color: #666;
-  color: #b2b2b2;
+  color: #bcbdbe;
 }
 .main-footer {
   background: #1a2226;
@@ -149,8 +149,8 @@ html {
 .nav-tabs-custom,
 .nav-tabs-custom > .nav-tabs {
   background: #0e1010;
-  border-color: #3e4244;
-  color: #b2b2b2;
+  border-color: #1f2326;
+  color: #bcbdbe;
 }
 .nav-tabs-custom > .nav-tabs > li.active > a {
   border-color: #30383b;
@@ -158,13 +158,13 @@ html {
 .nav-tabs-custom > .nav-tabs > li.active:hover > a,
 .nav-tabs-custom > .nav-tabs > li.active > a {
   background-color: #0a0d0f;
-  color: #b2b2b2;
+  color: #bcbdbe;
 }
 .navbar-custom-menu > .navbar-nav > li > .dropdown-menu,
 .navbar-nav > .user-menu > .dropdown-menu > .user-body a,
 .navbar-nav > .user-menu > .dropdown-menu > .user-footer {
   background: #0c0d0e !important;
-  color: #b2b2b2 !important;
+  color: #bcbdbe !important;
 }
 .pagination > .disabled > a,
 .pagination > .disabled > a:focus,
@@ -176,7 +176,7 @@ html {
 .pagination > li > span {
   background-color: #292e30;
   border-color: #414547;
-  color: #b2b2b2;
+  color: #bcbdbe;
 }
 .progress {
   background: #12171a;
@@ -185,7 +185,7 @@ html {
   background: #292e30 !important;
 }
 .skin-blue .main-header .navbar {
-  background: #222d32;
+  background: #1f2326;
   color: #b8c7ce;
 }
 .skin-blue .main-header .navbar .nav .open > a,
@@ -199,7 +199,7 @@ html {
 .skin-blue .main-header .navbar > .sidebar-toggle:hover,
 .skin-blue .main-header > .logo:active,
 .skin-blue .main-header > .logo:hover {
-  background: #3e4244;
+  background: #1f2326;
 }
 .skin-blue .main-header .navbar .navbar-custom-menu .navbar-nav > li > a,
 .skin-blue .main-header .navbar .navbar-nav > li > a,
@@ -211,7 +211,7 @@ html {
   color: #b8c7ce;
 }
 .skin-blue .main-header > .logo {
-  background: #1a2226;
+  background: none;
   border: none;
   color: #b8c7ce;
 }
@@ -237,7 +237,7 @@ html {
 }
 .skin-blue .sidebar-form .btn,
 .skin-blue .sidebar-form input[type="text"] {
-  background-color: #374850;
+  background: none;
   border: 1px solid transparent;
   box-shadow: none;
   height: 35px;
@@ -247,7 +247,7 @@ html {
 }
 .skin-blue .sidebar-form input[type="text"]:focus,
 .skin-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
-  background-color: #fff;
+  background: none;
   color: #666;
 }
 .skin-blue .sidebar-menu .treeview-menu > li.active > a,
@@ -258,16 +258,16 @@ html {
   color: #8aa4af;
 }
 .skin-blue .sidebar-menu > li.active > a {
-  border-left-color: #3c8dbc;
+  border-left-color: #e5a00d;
 }
 .skin-blue .sidebar-menu > li.header {
-  background: #1a2226;
-  color: #4b646f;
+  background: #1f2326;
+  color: #fff;
 }
 .skin-blue .sidebar-menu > li.active > a,
 .skin-blue .sidebar-menu > li.menu-open > a,
 .skin-blue .sidebar-menu > li:hover > a {
-  background: #1e282c;
+  background: #2f3335;
   color: #fff;
 }
 .skin-blue .sidebar-menu > li > .treeview-menu {
@@ -280,12 +280,12 @@ html {
 .nav-tabs-custom > .nav-tabs > li > a,
 .skin-blue .user-panel > .info,
 .skin-blue .user-panel > .info > a {
-  color: #b2b2b2;
+  color: #bcbdbe;
 }
 .skin-blue .left-side,
 .skin-blue .main-sidebar,
 .skin-blue .wrapper {
-  background-color: #222d32;
+  background: #1f2326;
 }
 .table-bordered,
 .table-bordered > tbody > tr > td,
