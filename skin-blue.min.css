@@ -2,31 +2,75 @@
 /* Custom plex theme CSS for pi-hole to replace skin-blue AdminLTE theme */
 /* https://github.com/nicras/pi-hole-plex/ */
 body {
-  background: none;
+  background: #000;
+  color: #fff;
+}
+a {
+  color: #eeeeee;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #fff;
+  text-decoration: underline;
 }
 .btn-default,
 button {
-  background-color: #080909;
-  border: 1px solid #666;
+  background: none;
+  border: 1px solid #2b3946;
   color: #bcbdbe;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default.hover {
+  background-color: #e5a00d;
+  color: #fff;
+}
+.btn-primary {
+  background-color: #cc7b19;
+  border-color: #cc7b19;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.hover {
+  background-color: #e59029;
+  border-color: #e59029;
+}
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+  background-color: #e59029;
+  border-color: #e59029;
+}
+.bg-aqua,
+.callout.callout-info,
+.alert-info,
+.label-info,
+.modal-info .modal-body {
+  background-color: #e5a00d !important;
 }
 .box-footer,
 .datatables_processing,
 .form-control,
 input,
 pre {
-  background: #080909;
-  border: 1px solid #666;
-  color: #bcbdbe;
+  background: #fff;
+  border: none;
+  color: #000;
 }
 html {
-  scrollbar-3dlight-color: #3c8dbc;
+  scrollbar-3dlight-color: #e5a00d;
   scrollbar-arrow-color: #000;
-  scrollbar-base-color: #3c8dbc;
-  scrollbar-dark-shadow-color: #3c8dbc;
-  scrollbar-face-color: #3c8dbc;
-  scrollbar-highlight-color: #3c8dbc;
-  scrollbar-shadow-color: #3c8dbc;
+  scrollbar-base-color: #e5a00d;
+  scrollbar-face-color: #e5a00d;
+  scrollbar-highlight-color: #e5a00d;
+  scrollbar-shadow-color: #e5a00d;
   scrollbar-track-color: #000;
 }
 ::-webkit-scrollbar {
@@ -38,13 +82,13 @@ html {
   background-color: #666;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #3c8dbc;
+  background-color: #e5a00d;
   border-radius: 3px;
   height: 50px;
 }
 ::-webkit-scrollbar-corner,
 ::-webkit-scrollbar-track {
-  background-color: #3c8dbc;
+  background-color: #e5a00d;
 }
 ::-webkit-scrollbar-track-piece {
   background-color: #000;
@@ -131,20 +175,20 @@ html {
 .content-wrapper,
 .right-side {
   background: url(../../img/plex-bg.png) center / cover no-repeat fixed;
-  color: #fff;
+  color: #eeeeee;
 }
 .input-group .input-group-addon,
 .list-group-item,
 .panel,
 .panel-default > .panel-heading {
   background: none;
-  border-color: #666;
-  color: #bcbdbe;
+  border-color: #2b3946;
+  color: #eeeeee;
 }
 .main-footer {
-  background: #1a2226;
-  border-color: #30383b;
-  color: #b8c7ce;
+  background: none;
+  border: none;
+  color: #bcbdbe;
 }
 .nav-tabs-custom,
 .nav-tabs-custom > .nav-tabs {
@@ -174,15 +218,16 @@ html {
 .pagination > .disabled > span:hover,
 .pagination > li > a,
 .pagination > li > span {
-  background-color: #292e30;
-  border-color: #414547;
+  background-color: #1f2326;
+  border-color: #2b3946;
   color: #bcbdbe;
 }
 .progress {
-  background: #12171a;
+  background: rgba(0, 0, 0, 0.5);
 }
 .skin-blue .list-group-item:hover {
-  background: #292e30 !important;
+  background: #1f2326 !important;
+  color: #fff;
 }
 .skin-blue .main-header .navbar {
   background: #1f2326;
@@ -295,10 +340,10 @@ html {
 .table-bordered > thead > tr > td,
 .table-bordered > thead > tr > th,
 .table-responsive {
-  border-color: #12171a;
+  border-color: #2b3946;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #101417;
+  background: none;
 }
 .layout-boxed {
   background-color: #0a0d0f !important;
@@ -316,11 +361,37 @@ html {
   color: #808b90 !important;
 }
 .chartjs-render-monitor {
-  filter: invert(100%);
+  filter: invert(25%);
 }
 .chart-legend {
-  filter: invert(100%);
+  filter: invert(25%);
 }
 #chartjs-tooltip {
-  filter: invert(100%);
+  filter: invert(25%);
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #e5a00d;
+  border-color: #e5a00d;
+}
+.daterangepicker {
+  color: #000;
+}
+.daterangepicker .ranges li.active {
+  background-color: #e5a00d;
+  color: #fff;
+}
+tr {
+  filter: saturate(3);
+}
+tr.odd,
+tr.even {
+  color: #000;
 }
