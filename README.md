@@ -4,7 +4,7 @@ Custom plex theme CSS for pi-hole to replace skin-blue AdminLTE theme.
 
 Created for use with [pi-hole](https://github.com/pi-hole/pi-hole).
 
-[![Screenshot](https://i.imgur.com/UrmgpyN.png)](https://i.imgur.com/UrmgpyN.png)
+[![Screenshot](https://github.com/Nicras/pi-hole-plex/blob/master/images/plex-bg.png)](https://github.com/Nicras/pi-hole-plex/blob/master/images/plex-bg.png)
 
 ---
 
