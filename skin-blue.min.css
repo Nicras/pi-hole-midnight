@@ -192,16 +192,19 @@ html {
 }
 .nav-tabs-custom,
 .nav-tabs-custom > .nav-tabs {
-  background: #0e1010;
-  border-color: #1f2326;
-  color: #bcbdbe;
+  background: none;
+  border-color: #2b3946;
+  color: #eeeeee;
 }
 .nav-tabs-custom > .nav-tabs > li.active > a {
   border-color: #30383b;
 }
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #e5a00d;
+}
 .nav-tabs-custom > .nav-tabs > li.active:hover > a,
 .nav-tabs-custom > .nav-tabs > li.active > a {
-  background-color: #0a0d0f;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #bcbdbe;
 }
 .navbar-custom-menu > .navbar-nav > li > .dropdown-menu,
