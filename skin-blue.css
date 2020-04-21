@@ -356,10 +356,6 @@ html {
   background-color: #0a0d0f !important;
   background-image: none !important;
 }
-.chart canvas,
-.chart svg {
-  filter: saturate(3);
-}
 .small-box .icon {
   color: rgba(255, 255, 255, 0.15);
 }
